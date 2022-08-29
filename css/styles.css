@@ -1,0 +1,283 @@
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffff;
+}
+
+* {
+    margin: 0;
+}
+
+ul { 
+    list-style: none;
+}
+
+.section {
+    padding-bottom: 94px;
+}
+
+
+.container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #757575;
+}
+
+a:hover {
+    color: #2196F3;
+}
+
+p {
+    font-size: 12px;
+    color: #757575;
+}
+
+/* index style */
+
+.nav-list-index {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.web-text {
+    padding-right: 93px;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+.web-text:hover {
+    color: #2196F3;
+}
+
+.web-color {
+    color: #2196F3;
+}
+
+.web-color:hover {
+    color: black;
+}
+
+.link-contact {
+    padding-left: 250px;
+}
+
+.link {
+    font-size: 16px;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.text-index {
+    margin-top: 94px;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.paragraf {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+
+.text-index-element {
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.box {
+    width: 260px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 5px;
+}
+
+.container-2 {
+    height: 600px;
+    width: auto;
+    background-color: #2F303A;
+}
+
+.heading {
+    margin-top: 200px;
+    margin-bottom: 30px;
+    font-size: 44px;
+    text-align: center;
+}
+
+.text {
+    color: #E5E5E5;
+}
+
+.heading-2 {
+    margin-bottom: 50px;
+    font-size: 38px;
+    text-align: center;
+}
+
+/* .btn-main {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    background-color: #2196F3;
+
+} */
+
+.btn-main {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #2196F3;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-main:hover {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    transition: ease-out 0,5s;
+}
+
+.btn-main-text:hover {
+    color: #2F303A;
+    transition: ease-out 0,5s;
+}
+
+.btn-main-text {
+    color:#E5E5E5;
+    margin-top: 13px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.we-do-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.we-do {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+.employee-container {
+    background-color: #F5F4FA;
+    height: 750px;
+}
+
+
+.employee-list {
+    margin-bottom: 60px;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+.footer {
+    color:white;
+    padding-left: 60px;
+    padding-top: 60px;
+    height: 250px;
+    background-color: #2F303A;
+}
+
+
+.link-footer {
+    color: white;
+}
+
+
+.footer-web-color {
+    color: #2196F3;
+}
+
+
+
+/* portfolio style */
+
+
+
+.portfolio-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.schedule-body {
+    display: inline;
+    width: 93px;
+    height: 38px;
+    flex-direction: row;
+    text-align: center;
+    background-color: #F5F4FA;
+    font-size: 16px; 
+}
+
+.schedule-body:hover {
+    width: 121px;
+    height: 38px;
+    cursor: pointer;
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    transition: ease-out 0.3s;
+}
+
+.img-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.footer-element:not(:first-child) {
+    padding-top: 30px;
+}
+
+
