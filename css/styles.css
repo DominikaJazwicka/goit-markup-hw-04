@@ -172,7 +172,7 @@ p {
 
 .heading-2 {
     margin-bottom: 50px;
-    font-size: 38px;
+    font-size: 36px;
     text-align: center;
 }
 
@@ -216,6 +216,11 @@ p {
     justify-content: center;
 }
 
+.we-do-list-card {
+    padding: 20px;
+}
+
+
 
 .we-do {
     margin: auto;
@@ -224,12 +229,11 @@ p {
     gap: 15px;
 }
 
-
-.employee-container {
+.employee-list-container {
     background-color: #F5F4FA;
-    height: 750px;
+    padding-top: 94px;
+    width: auto;
 }
-
 
 .employee-list {
     margin-bottom: 60px;
@@ -239,6 +243,37 @@ p {
     flex-wrap: wrap;
 }
 
+.employee-card {
+    width: 270px;
+    height: 428px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.employee-list-text {
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.employee-name {
+    padding-bottom: 10px;
+}
+
+
+
+.customers {
+    margin-top: 94px;
+}
+
+
+
+
+.footer-container {
+    width: auto;
+    
+}
 
 .footer {
     color:white;
@@ -248,6 +283,9 @@ p {
     background-color: #2F303A;
 }
 
+.footer-element {
+    margin-left: 360px;
+}
 
 .link-footer {
     color: white;
@@ -260,7 +298,20 @@ p {
 
 
 
+
+
+
+
+
+
+
 /* portfolio style */
+
+
+
+
+
+
 
 
 
