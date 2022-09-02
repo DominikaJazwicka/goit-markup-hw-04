@@ -200,6 +200,7 @@ p {
     height: 50px;
     background-color: white;
     transition: ease-out 0,5s;
+    cursor: pointer;
 }
 
 .btn-main-text:hover {
@@ -270,7 +271,7 @@ p {
 
 
 .customers {
-    margin-top: 94px;
+    margin-top: 50px;
     width: auto;
     display: flex;
     flex-wrap: wrap;
@@ -287,7 +288,6 @@ p {
 }
 
 .heading-3 {
-    margin-bottom: 20px;
     font-size: 36px;
     text-align: center;
     width: auto;
@@ -304,11 +304,11 @@ p {
     color: #2196F3;
 }
 
-.footer-container {
-    width: auto;   
-}
+
+
 
 .footer {
+    width: auto; 
     color:white;
     padding-left: 60px;
     padding-top: 60px;
@@ -317,7 +317,9 @@ p {
 }
 
 .footer-element {
-    margin-left: 360px;
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .link-footer {
@@ -334,14 +336,49 @@ p {
     height: 44px;
     width: 44px;
     color: #fff;
+}
 
+
+.icon-socialmedia {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-evenly;
 }
 
 
 
+.icon-socialmedia-element {
+    align-items: center;
+    color: white;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
 
 
+.icon-socialmedia-element:hover {
+    background-color: #2196F3;
+    color: #fff;
+    cursor: pointer;
+}
 
+
+.join-us {
+    margin-left: 250px;
+}
+
+.join-us-2 {
+    font-size: 16px;
+}
+
+.icon-socialmedia-2 {
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
@@ -420,10 +457,12 @@ p {
 
 .img-portfolio-card:hover {
     box-shadow: 8px 8px 8px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
-.footer-element:not(:first-child) {
-    padding-top: 30px;
+.footer-element {
+   padding-top: 20px;
+   
 }
 
 
