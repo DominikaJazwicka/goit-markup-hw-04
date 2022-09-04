@@ -332,37 +332,8 @@ p {
 }
 
 
-.ellipse {
-    height: 44px;
-    width: 44px;
-    color: #fff;
-}
 
 
-.icon-socialmedia {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    justify-content: space-evenly;
-}
-
-
-
-.icon-socialmedia-element {
-    align-items: center;
-    color: white;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-}
-
-
-.icon-socialmedia-element:hover {
-    background-color: #2196F3;
-    color: #fff;
-    cursor: pointer;
-}
 
 
 .join-us {
