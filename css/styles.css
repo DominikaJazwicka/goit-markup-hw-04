@@ -214,6 +214,72 @@ p {
     background-size: cover;
 }
 
+
+.social-media {
+    justify-content: space-evenly;
+}
+
+.circle {
+    margin-top: 20px;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+}
+
+.instagram {
+    background-image: url(../svg/instagram.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.instagram:hover {
+    cursor: pointer;
+    background-color: #2196F3;
+    fill: #fff;
+}
+
+.facebook {
+    background-image: url(../svg/fb.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.facebook:hover {
+    cursor: pointer;
+    background-color: #2196F3;
+    fill: white;
+}
+
+.twitter {
+    background-image: url(../svg/twitter.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.twitter:hover {
+    cursor: pointer;
+    background-color: #2196F3;
+    fill: white;
+}
+.linkedin {
+    background-image: url(../svg/linkedin.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.linkedin:hover {
+    cursor: pointer;
+    background-color: #2196F3;
+}
+
+
+
+
+
+
+
+
 .container-2 {
     height: 600px;
     width: auto;
@@ -329,10 +395,55 @@ p {
 
 .customers {
     margin-top: 50px;
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+}
+
+.customers-card {
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-flex;
+    height: 92px;
+    width: 160px;
+    border: 1px solid;
+    background-color: none;
+    border-color: #AFB1B8;
+    border-radius: 5px;
+}
+
+.customers-icon-1 {
+    background-image: url(../svg/nasiklienci1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.customers-icon-2 {
+    background-image: url(../svg/nasiklienci2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.customers-icon-3 {
+    background-image: url(../svg/nasiklienci3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.customers-icon-4 {
+    background-image: url(../svg/nasiklienci4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.customers-icon-5 {
+    background-image: url(../svg/nasiklienci5.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.customers-icon-6 {
+    background-image: url(../svg/nasiklienci6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -350,17 +461,6 @@ p {
     width: auto;
     margin-top: 94px;
 }
-
-
-.customers-image {
-    height: auto;
-    width: auto;
-}
-
-.customers-image:hover {
-    color: #2196F3;
-}
-
 
 
 
