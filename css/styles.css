@@ -471,6 +471,7 @@ p {
     padding-top: 60px;
     height: 250px;
     background-color: #2F303A;
+    justify-content: baseline;
 }
 
 .footer-element {
@@ -491,22 +492,15 @@ p {
 
 
 
+aside {
+    margin-left: 700px;
+}
 
 
 .join-us {
-    margin-left: 250px;
-}
-
-.join-us-2 {
     font-size: 16px;
 }
 
-.icon-socialmedia-2 {
-    padding-top: 20px;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
 
