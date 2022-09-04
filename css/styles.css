@@ -59,6 +59,14 @@ p {
     padding-left: 10px;
     padding-right: 10px;
     fill: #757575;
+    align-items: center;
+    display: inline-flex;
+}
+
+.link-contact-nav-1 .nav-icon-1:hover {
+    cursor: pointer;
+    color: #2196F3;
+    fill:#2196F3;
 }
 
 
@@ -69,6 +77,29 @@ p {
     flex-wrap: wrap;
     justify-content: center;   
 }
+
+.nav-icon-1 {
+    padding-right: 10px;
+    width: 16px;
+    height: 12px;
+    background-color: none;
+    background-image: url(../svg/envelope1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-icon-2 {
+    padding-right: 10px;
+    width: 10px;
+    height: 16px;
+    background-color: none;
+    background-image: url(../svg/phone.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
 
 .web-text {
     padding-right: 93px;
@@ -139,7 +170,7 @@ p {
 
 }
 
-.box {
+.attribute {
     width: 240px;
     height: 110px;
     background-color: #F5F4FA;
@@ -148,6 +179,32 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
+
+.attribute-1 {
+    background-image: url(../svg/Naszeatuty1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.attribute-2 {
+    background-image: url(../svg/naszeatrybuty2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.attribute-3 {
+    background-image: url(../svg/naszeatrybuty3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.attribute-4 {
+    background-image: url(../svg/naszeatrybuty4.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 
 .container-1 {
