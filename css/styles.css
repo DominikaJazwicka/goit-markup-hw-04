@@ -405,7 +405,9 @@ p {
 }
 
 
-
+.footer-link {
+    color: #fff;
+}
 
 .join-us {
     font-size: 16px;
