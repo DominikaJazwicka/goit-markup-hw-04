@@ -331,6 +331,10 @@ p {
 }
 
 
+.customer {
+    fill: #AFB1B8;
+}
+
 .customer:hover {
     cursor: pointer;
     fill: #2196F3;
@@ -357,18 +361,13 @@ p {
 
 
 
+.icon {
+    fill: #AFB1B8;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.icon:hover {
+    fill: #fff;
+}
 
 .footer {
     height: 300px;
