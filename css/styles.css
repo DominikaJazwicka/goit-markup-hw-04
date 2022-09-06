@@ -55,17 +55,16 @@ p {
 }
 
 
+
 .link-contact-nav-1 {
     padding-left: 10px;
     padding-right: 10px;
-    fill: #757575;
     align-items: center;
     display: inline-flex;
+
 }
 
-.link-contact-nav-1 .envelope:hover {
-    fill: #2196F3;
-}
+
 
 .nav-list-index {
     align-items: center;
@@ -180,13 +179,16 @@ p {
     justify-content: space-evenly;
 }
 
+
+
 .circle {
     padding: 10px;
     margin-top: 20px;
     display: inline-flex;
     width: 30px;
     height: 30px;
-    border-radius: 50%
+    border-radius: 50%;
+    justify-content: center;
 }
 
 
@@ -196,10 +198,6 @@ p {
 }
 
 
-
-.icon {
-    fill: #AFB1B8;
-}
 
 .circle {
     align-items: center;
@@ -211,13 +209,10 @@ p {
 
 .circle:hover {
     background-color: #2196F3;
-}
-
-
-.icon:hover {
     fill: #fff;
     cursor: pointer;
 }
+
 
 .heading {
     margin-top: 200px;
@@ -225,6 +220,7 @@ p {
     font-size: 44px;
     text-align: center;
 }
+
 
 .text {
     color: #E5E5E5;
