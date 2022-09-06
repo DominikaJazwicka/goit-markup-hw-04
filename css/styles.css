@@ -56,6 +56,7 @@ p {
 
 
 
+
 .link-contact-nav-1 {
     padding-left: 10px;
     padding-right: 10px;
@@ -76,10 +77,20 @@ p {
 
 .envelope {
     padding-right: 10px;
+    fill: #AFB1B8;
+}
+
+.envelope:hover {
+    fill: #2196F3;
 }
 
 .phone {
     padding-right: 10px;
+    fill: #AFB1B8;
+}
+
+.phone:hover {
+    fill:#2196F3;
 }
 
 
@@ -323,6 +334,8 @@ p {
 
 
 .customers {
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -409,6 +422,7 @@ p {
 }
 
 .join-us {
+    padding: 15px;
     font-size: 16px;
     color: #fff;
 }
