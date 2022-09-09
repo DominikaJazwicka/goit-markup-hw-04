@@ -43,6 +43,22 @@ p {
 /* index style */
 
 
+
+
+.link-after::after {
+    display: block;
+    content: '';
+    border-radius: 5px;
+    top: 100px;
+    left: 592;
+    width: 100%;
+    height: 2px;
+    background-color:#2196F3;
+
+}
+
+
+
 .link-contact-nav {
     display: flex;
     flex-wrap: wrap;
@@ -95,7 +111,7 @@ p {
 
 
 .web-text {
-    padding-right: 93px;
+    margin-right: 93px;
     font-weight: bold;
     font-size: 24px;
     color: black;
@@ -378,8 +394,7 @@ p {
 
 
 .customers {
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -388,7 +403,25 @@ p {
 }
 
 
-.customer {
+.customer-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+    height: 92px;
+    border: 1px solid;
+    border-color: #AFB1B8;
+    border-radius: 5px;
+}
+
+
+.customer-box:hover svg { fill: #2196F3} 
+
+.customer-box:hover {
+    border-color: #2196F3;
+}
+
+
+.customer  {
     fill: #AFB1B8;
 }
 
