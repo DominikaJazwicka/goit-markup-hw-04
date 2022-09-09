@@ -45,6 +45,20 @@ p {
 
 
 
+.link-after::before {
+    background-color: none;
+    display: block;
+    content: '';
+    border-radius: 5px;
+    top: 100px;
+    left: 592;
+    width: 100%;
+    height: 2px;
+    background-color:#fff;
+
+}
+
+
 .link-after::after {
     display: block;
     content: '';
